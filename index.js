@@ -2,3 +2,5 @@
 var Faker = require('./lib');
 var faker = new Faker({ locales: require('./lib/locales') });
 module['exports'] = faker;
+//log for blood group
+console.log(faker.bloodgroup.group());
